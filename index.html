@@ -3,14 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <title>เว็บของฉัน</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .container {
+            background: white;
+            width: 80%;
+            max-width: 600px;
+            margin: 80px auto;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+            font-size: 18px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background-color: #4facfe;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #0077ff;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>สวัสดีครับ 👋</h1>
-    <p>นี่คือหน้าเว็บ HTML หน้าแรกของฉัน</p>
-
-    <h2>เกี่ยวกับฉัน</h2>
-    <p>ฉันกำลังหัดเขียนเว็บด้วย HTML</p>
-
-    <a href="https://www.google.com" target="_blank">ไปที่ Google</a>
+    <div class="container">
+        <h1>สวัสดีครับ 👋</h1>
+        <p>นี่คือเว็บ HTML + CSS แบบง่ายที่ดูดีขึ้น</p>
+        <a href="#" class="btn">กดที่นี่</a>
+    </div>
 </body>
 </html>
